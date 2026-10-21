@@ -16,7 +16,9 @@ from skimage.feature import local_binary_pattern
 # --------------------------------------------------
 # CONFIGURATION
 # --------------------------------------------------
-PROJECT = Path(r"E:\Greenpod_avacado_ass")
+from pathlib import Path
+
+PROJECT = Path(__file__).resolve().parent
 MODEL_DIR = PROJECT / "models"
 
 SVM_PATH = MODEL_DIR / "classical_svm.joblib"
