@@ -1,0 +1,2 @@
+model,test_accuracy,test_macro_f1,training_seconds
+HSV + LBP + SVM,0.9403669724770642,0.9193103448275862,0.09018949999881443
